@@ -28,10 +28,6 @@ export function Home() {
     <div className="container">
       <header>
         <h1>Lista de presença</h1>
-        <div>
-          <strong>Miguel</strong>
-          <img src="https://github.com/miguelfill.png" alt="foto de perfil" />
-        </div>
       </header>
 
       <input type="text" placeholder="Digite o nome:" 
@@ -53,10 +49,3 @@ export function Home() {
   )
 }
 
-// export default Home;
-// linha 27: pegando o valor do input e colocando na função que vai atualizar o estado
-// quando a gente usa chaves, é porque a gente quer pegar o conteúdo de uma variável (students)
-// Linha 10-20: toda vez que eu chamar a função eu vou criar um novo objeto que vai ter duas propriedades, nome que eu vou pegar da variável que ta armazenada o estado e o time que eu vou pegar o horário atual
-// Linha 24: corpo do useEffect: tudo que tiver dentro do corpo do useEffect serão as ações ou aquilo que eu quero que execute 
-// Linha 25: serve pra colocar quais são os estados que nosso useEffect depende
-// Linha 7: padrão do estado, primeiro elemento: onde vou armazenar o estado, segundo elemento: variável que irá mudar o estado
